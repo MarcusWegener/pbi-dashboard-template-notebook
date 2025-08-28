@@ -20,13 +20,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "FactTable"
+                      "Entity": "FactACTTable"
                     }
                   },
                   "Property": "ACTMeasure"
                 }
               },
-              "queryRef": "FactTable.ACTMeasure",
+              "queryRef": "FactACTTable.ACTMeasure",
               "nativeQueryRef": "ACTMeasure",
               "hidden": true
             },
@@ -35,13 +35,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "FactTable"
+                      "Entity": "FactBUDTable"
                     }
                   },
                   "Property": "BUDMeasure"
                 }
               },
-              "queryRef": "FactTable.BUDMeasure",
+              "queryRef": "FactBUDTable.BUDMeasure",
               "nativeQueryRef": "BUDMeasure",
               "hidden": true
             },
@@ -98,7 +98,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "FactTable"
+                    "Entity": "FactACTTable"
                   }
                 },
                 "Property": "ACTMeasure"
@@ -394,7 +394,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "FactTable"
+                      "Entity": "FactACTTable"
                     }
                   },
                   "Property": "ACTMeasure"
@@ -422,7 +422,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "FactTable"
+                      "Entity": "FactBUDTable"
                     }
                   },
                   "Property": "BUDMeasure"
@@ -469,7 +469,7 @@
           "Measure": {
             "Expression": {
               "SourceRef": {
-                "Entity": "FactTable"
+                "Entity": "FactACTTable"
               }
             },
             "Property": "ACTMeasure"
@@ -483,7 +483,7 @@
           "Measure": {
             "Expression": {
               "SourceRef": {
-                "Entity": "FactTable"
+                "Entity": "FactBUDTable"
               }
             },
             "Property": "BUDMeasure"
